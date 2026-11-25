@@ -2,8 +2,8 @@ package com.example.backend.model;
 
 import jakarta.validation.constraints.NotBlank;
 
-/** Cuerpo de la peticion de login: { "email": "...", "password": "..." } */
+/** Cuerpo de la petición de login: { "username": "...", "password": "..." } */
 public record LoginRequest(
-        @NotBlank String email,
-        @NotBlank String password
+        @NotBlank(message = "El usuario es obligatorio") String username,
+        @NotBlank(message = "La contraseña es obligatoria") String password
 ) {}
