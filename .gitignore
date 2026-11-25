@@ -31,7 +31,3 @@ build/
 
 ### VS Code ###
 .vscode/
-
-### Secretos de la base de datos (NO subir a GitHub) ###
-wallet/
-db.properties

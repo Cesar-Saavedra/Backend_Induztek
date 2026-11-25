@@ -1,4 +1,0 @@
-# Copia este archivo, llámalo "db.properties" (en esta misma carpeta)
-# y escribe tu clave real. db.properties NO se sube a GitHub.
-spring.datasource.username=ADMIN
-spring.datasource.password=ESCRIBE_AQUI_TU_CLAVE
